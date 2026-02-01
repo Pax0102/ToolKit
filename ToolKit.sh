@@ -277,6 +277,7 @@ case $choice in
       esac
 ;;
     5)
+    clear
     echo "                   Escolha um dos a seguir, envie 3 para voltar a tela inicial."
       echo "                           1. Atualizar"
       echo "                           2. ToolKit v2"
@@ -291,6 +292,7 @@ case $choice in
           cd -
           echo "RESPONDA COM  "y" 2x PARA COMPLETAR O PROCESSO"
           rm -r ToolKit
+          
       else
           Toolkit
         fi
