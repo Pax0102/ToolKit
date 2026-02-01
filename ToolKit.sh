@@ -284,11 +284,11 @@ case $choice in
       1)
       AreYouSure
       read YN
-      if [ "$YN" = "Y" ] then
+      if [ "$YN" = "Y" ]; then
           cd -
           cd -
           rm -r ToolKit
-      elif [ "$YN" = "N" ] then
+      else
           Toolkit
         fi
         
