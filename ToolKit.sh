@@ -288,7 +288,7 @@ case $choice in
           cd -
           cd -
           rm -r ToolKit
-          else
+      elif [ "$YN" = "N" ] then
           Toolkit
         fi
         
