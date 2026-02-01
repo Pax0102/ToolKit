@@ -190,7 +190,7 @@ echo "                           1. Jogos"
 echo "                           2. Option two"
 echo "                           3. Option three"
 echo "                           4. Option four"
-echo "                           5. Monitorar atividade"
+echo "                           5. ToolKit v2"
 echo "                           6. Option six"
 read choice
 case $choice in
@@ -276,17 +276,28 @@ case $choice in
 ;;
     5)
     echo "                   Escolha um dos a seguir, envie 3 para voltar a tela inicial."
-      echo "                           1. Monitorar rede"
-      echo "                           2. opcao 2"
+      echo "                           1. Atualizar"
+      echo "                           2. ToolKit v2"
       echo "                           3. Voltar"
       read abc
       case $abc in
       1)
-      
+      AreYouSure
+      read YN
+      if [ "$YN" = "Y" ] then
+          cd -
+          cd -
+          rm -r ToolKit
+          else
+          Toolkit
+        fi
+        
       ;;
 
       2)
-      
+        echo "me da robux farofa pfv"
+        sleep 7
+        Toolkit
       ;;
       
       3)
