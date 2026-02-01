@@ -116,70 +116,7 @@ echo "                 QUALQUER OUTRA RESPOSTA SERA ANULADA E VOCE SERA LEVADO A
 
 
 Toolkit() {
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
+clear
 echo "${PURPLE}ooooooooooooo                     oooo  oooo    oooo  o8o      .                      .oooo.   "
 echo "${PURPLE}8    888    8                      888   888   .8P    ""     .o8                    .dP""Y88b  "
 echo "${PURPLE}     888       .ooooo.   .ooooo.   888   888  d8     oooo  .o888oo      oooo    ooo        8P  "
