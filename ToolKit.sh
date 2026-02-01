@@ -18,82 +18,11 @@ RESET=$(tput sgr0)
 
 abs="true"
 
-
-
 readfunc() {
   read $1
 }
 
-
 AreYouSure() {
-    echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo
-echo                                                                                                                                                                                                                                                                                   
-echo
-echo
 clear
 echo " ___      ___ ________  ________  _______           _________  _______   _____ ______           ________  _______   ________  _________  _______   ________  ________   ________        "
 echo "|\  \    /  /|\   __  \|\   ____\|\  ___ \         |\___   ___\\  ___ \ |\   _ \  _   \        |\   ____\|\  ___ \ |\   __  \|\___   ___\\  ___ \ |\_____  \|\   __  \ |\_____  \       "
@@ -104,13 +33,6 @@ echo "    \ \__/ /     \ \_______\ \_______\ \_______\           \ \__\ \ \_____
 echo "     \|__|/       \|_______|\|_______|\|_______|            \|__|  \|_______|\|__|     \|__|        \|_______|\|_______|\|__|\|__|    \|__|  \|_______|\|_______|\|__|\|__|       |\__\ "
 echo "                 RESPONDA APENAS COM     [Y/N]        (TEM QUE SER MAIUSCULO)"
 echo "                 QUALQUER OUTRA RESPOSTA SERA ANULADA E VOCE SERA LEVADO A TELA INCIAL."
-
-
-
-                                                                                                                                                                                
-
-
-
 }
 
 
@@ -270,7 +192,6 @@ case $choice in
 ;;
 esac
 }
-
 
 if [ "$fwa" = "$tgf" ]; then
 if [ "$zxd" = "$rdh" ]; then
