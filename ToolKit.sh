@@ -101,7 +101,7 @@ echo "  \ \  \/  / / \ \  \\\  \ \  \    \ \  \_|/__           \ \  \ \ \  \_|/_
 echo "   \ \    / /   \ \  \\\  \ \  \____\ \  \_|\ \           \ \  \ \ \  \_|\ \ \  \    \ \  \       \ \  \____\ \  \_|\ \ \  \\  \|   \ \  \ \ \  \_|\ \ /  /_/__\ \  \ \  \     \|__|    "
 echo "    \ \__/ /     \ \_______\ \_______\ \_______\           \ \__\ \ \_______\ \__\    \ \__\       \ \_______\ \_______\ \__\\ _\    \ \__\ \ \_______\\________\ \__\ \__\        ___  "
 echo "     \|__|/       \|_______|\|_______|\|_______|            \|__|  \|_______|\|__|     \|__|        \|_______|\|_______|\|__|\|__|    \|__|  \|_______|\|_______|\|__|\|__|       |\__\ "
-echo "                 RESPONDA APENAS COM     [Y/N]"
+echo "                 RESPONDA APENAS COM     [Y/N]        (TEM QUE SER MAIUSCULO)"
 echo "                 QUALQUER OUTRA RESPOSTA SERA ANULADA E VOCE SERA LEVADO A TELA INCIAL."
 
 
@@ -287,10 +287,10 @@ case $choice in
       AreYouSure
       read YN
       if [ "$YN" = "Y" ]; then
-      echo "RESPONDA COM  "y" 2x PARA COMPLETAR O PROCESSO"
           cd -
           cd -
           rm -r ToolKit
+          echo "RESPONDA COM  "y" 2x PARA COMPLETAR O PROCESSO"
       else
           Toolkit
         fi
