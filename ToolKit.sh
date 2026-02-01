@@ -289,8 +289,8 @@ case $choice in
       if [ "$YN" = "Y" ]; then
           cd -
           cd -
-          rm -r ToolKit
           echo "RESPONDA COM  "y" 2x PARA COMPLETAR O PROCESSO"
+          rm -r ToolKit
       else
           Toolkit
         fi
