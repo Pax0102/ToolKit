@@ -57,6 +57,7 @@ echo "                           6. Option six"
 read choice
 case $choice in
     1)
+    clear
       echo "                   Escolha um dos a seguir, envie 3 para voltar a tela inicial."
       echo "                           1. Ducklit"
       echo "                           2. Classroom"
@@ -77,6 +78,7 @@ case $choice in
       esac
 ;;
     2)
+    clear
     echo "                   Escolha um dos a seguir, envie 3 para voltar a tela inicial."
       echo "                           1. opcao 1"
       echo "                           2. opcao 2"
@@ -97,6 +99,7 @@ case $choice in
       esac
 ;;
     3)
+    clear
     echo "                   Escolha um dos a seguir, envie 3 para voltar a tela inicial."
       echo "                           1. opcao 1"
       echo "                           2. opcao 2"
@@ -117,6 +120,7 @@ case $choice in
       esac
 ;;
     4)
+    clear
     echo "                   Escolha um dos a seguir, envie 3 para voltar a tela inicial."
       echo "                           1. opcao 1"
       echo "                           2. opcao 2"
@@ -171,6 +175,7 @@ case $choice in
       esac
 ;;
     6)
+    clear
     echo "                   Escolha um dos a seguir, envie 3 para voltar a tela inicial."
       echo "                           1. opcao 1"
       echo "                           2. opcao 2"
