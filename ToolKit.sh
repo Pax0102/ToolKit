@@ -1,4 +1,4 @@
-read -sp "User?" tgf
+oread -sp "User?" tgf
 echo ""
 read -sp "Password?" rdh
 echo ""
@@ -21,7 +21,7 @@ Atualizar() {
   cd -
   rm -r -f ToolKit
   clear
-  O toolkit foi atualizado, abra o inicializador novamente.
+  echo "O toolkit foi atualizado, abra o inicializador novamente."
 }
 
 abs="true"
