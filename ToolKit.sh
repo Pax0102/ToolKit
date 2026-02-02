@@ -1,4 +1,4 @@
-oread -sp "User?" tgf
+read -sp "User?" tgf
 echo ""
 read -sp "Password?" rdh
 echo ""
