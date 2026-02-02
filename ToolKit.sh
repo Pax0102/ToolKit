@@ -163,7 +163,7 @@ case $choice in
       
       if [ "$YN" = "Y" ]; then
           Atualizar
-      elif [ "$YN" = "y" ]
+      elif [ "$YN" = "y" ]; then
           Atualizar
       else
           Toolkit
