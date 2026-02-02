@@ -16,6 +16,14 @@ WHITE=$(tput setaf 7)
 BLUE=$(tput setaf 4)
 RESET=$(tput sgr0)
 
+Atualizar() {
+  cd -
+  cd -
+  rm -r -f ToolKit
+  clear
+  O toolkit foi atualizado, abra o inicializador novamente.
+}
+
 abs="true"
 
 readfunc() {
@@ -151,11 +159,12 @@ case $choice in
       1)
       AreYouSure
       read YN
+
+      
       if [ "$YN" = "Y" ]; then
-          cd -
-          cd -
-          rm -r -f ToolKit
-          
+          Atualizar
+      elif [ "$YN" = "y" ]
+          Atualizar
       else
           Toolkit
         fi
