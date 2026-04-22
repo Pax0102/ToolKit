@@ -21,8 +21,18 @@ Atualizar() {
   cd -
   rm -r -f ToolKit
   clear
-  echo "O toolkit foi atualizado, abra o inicializador novamente."
-}
+  echo "O toolkit foi atualizado, iniciando novamente em: 3"
+  sleep 1
+  clear
+  echo "O toolkit foi atualizado, iniciando novamente em: 2"
+  sleep 1
+  clear
+  echo "O toolkit foi atualizado, iniciando novamente em: 1"
+  sleep 1
+  clear
+  echo "..."
+  echo pwd
+  }
 
 abs="true"
 
@@ -172,6 +182,7 @@ case $choice in
       ;;
 
       2)
+      clear
         echo "me da robux farofa pfv"
         sleep 4
         Toolkit
