@@ -2,7 +2,7 @@ read -sp "User?" tgf
 echo ""
 read -sp "Password?" rdh
 echo ""
-cd
+cd 
 
 readonly fwa="farofa"
 readonly zxd="pinto"
@@ -31,7 +31,10 @@ Atualizar() {
   sleep 1
   clear
   echo "..."
-  pwd
+  cd ~/TKinit.sh
+  cd -
+  ./TKinit.sh
+  
   }
 
 abs="true"
