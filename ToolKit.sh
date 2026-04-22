@@ -31,7 +31,7 @@ Atualizar() {
   sleep 1
   clear
   echo "..."
-  echo pwd
+  pwd
   }
 
 abs="true"
